@@ -1,4 +1,3 @@
-
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -18,10 +17,17 @@
     color: white;
     border: none;
     padding: 18px 35px;
-    border-radius: 5px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 /* Nav style */
+.hero{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 nav{
     display: flex;
     align-items: center;
@@ -62,7 +68,91 @@ nav li a {
     background-image:url("Assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 1440px;
     width: 100%;
     height: 698px;
     margin-top: -200px;
+    padding: 0 20px;
+}
+/* Section Layout */
+.section{
+  margin: 100px auto;
+  padding: 40px 20px;
+  max-width: 1140px;
+  font-family: "Segoe UI", sans-serif;
+  background-color: white;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  height: 30vh;
+  text-align: left;
+}
+.section-title{
+  color: rgb(37, 36, 50);
+font-family: Raleway;
+font-size: 42px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0%;
+text-align: left;
+}
+.section-discription{
+color: rgba(37, 36, 50, 0.5);
+font-family: Raleway;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.image-content img{
+max-width: 403px;
+height: 328px;  
+border-radius: 48px;
+}
+.container {
+  background-color: #e7e8fe;
+  border-radius: 24px;
+  padding: 40px 20px;
+  max-width: 1140px;
+  max-height: 360px;
+  margin: 0 auto;
+  padding: 25px 20px;
+  width: 90%;
+  text-align: center;
+  align-items: center;
+}
+
+.container h2 {
+  color: rgb(37, 36, 50);
+font-family: Raleway;
+font-size: 38px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0%;
+text-align: center;
+}
+.stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.stat {
+  margin: 10px 20px;
+}
+.stat {
+  margin: 10px 20px;
+}
+.value {
+  margin-top: -20px;
+  font-size: 80px;
+  font-weight: bold;
+  max-width: 162px;
+  color: #4a4aff;
+}
+.label {
+  font-size: 20px;
+  color: #666;
+  margin-top: -50px;
 }
